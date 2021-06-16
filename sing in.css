@@ -1,0 +1,133 @@
+/*********************Universal*******************/
+
+*{
+
+    margin:0;
+    padding: 0;
+
+}
+
+html, body{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+/***************************Divs*****************/
+
+.centro{
+
+    height: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(1, 0, 29);
+    color: orange;
+
+}
+
+.linea{
+
+    width: 70%;
+    
+    padding: 1px;
+
+    display: flex;    
+    text-align: right;
+    align-items: center;
+
+}
+
+h2{
+
+    width: 40%;
+
+}
+
+label{
+    margin: 0 5px;
+    position: relative;
+    left: 10%;
+
+}
+
+.agree{
+    position: relative;
+    left:50%;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    left:50%;
+}
+
+input, form{
+
+    height: 100%;
+
+    position: relative;
+    left: 10%;
+
+}
+
+input[type="text"],[type="password"],[type="email"]{
+    width: 200px
+}
+
+input[type="email"]:valid{
+    border: 3px solid;
+    border-color: rgb(0, 165, 0);
+}
+
+input[type="email"]:invalid{
+    border: 3px solid;
+    border-color: red;
+}
+
+form{
+    margin: 0 2px;
+}
+
+.naranja{
+
+    height: 10%;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    background: orange;
+    color: white;
+    
+}
+
+.n{
+    justify-content: left;
+}
+
+button{
+    
+    height: 3em;
+    
+    margin: 0.5%;
+    
+    color: white;
+}
+
+.submit{
+
+    width: 15%;
+    background: rgb(29, 190, 15);
+
+}
+
+.cancel{
+
+    width: 10%;
+    background: red;
+
+}
