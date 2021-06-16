@@ -19,7 +19,7 @@ html, body{
     align-items: center;
 
     background: rgb(1, 0, 29);
-    color: orange;
+    color: rgb(0, 197, 0);
 
 }
 
@@ -99,7 +99,7 @@ form{
     justify-content: center;
     align-items: center;
     
-    background: orange;
+    background: rgb(15, 190, 73);
     color: white;
     
 }
